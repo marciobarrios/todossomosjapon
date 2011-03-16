@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]> <html lang="es" class="ie"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="es"><!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+ 
+<title>Todos somos Japón</title>
+
+<meta name="author" content="Marcio Barrios">  
+
+<style type="text/css">
+html,body {min-height: 100%; margin: 0; padding: 0;}
+
+body {
+    font: 15px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0D86B3), to(#11a9e2));
+    background-image: -moz-linear-gradient(#0D86B3, #11a9e2);
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.ie body {
+  background: #212121;
+}
+
+a {
+    color: #fff;
+    padding: 2px 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    background: rgba(0,0,0,.2);
+    -webkit-transition:background-color ease-in-out .5s;
+       -moz-transition:background-color ease-in-out .5s;
+            transition:background-color ease-in-out .5s;
+}
+
+a:hover {
+    background-color: rgba(0,0,0,.5);
+}
+
+div {
+    width: 440px;
+    margin: 0 auto;
+}
+
+h1 {
+    position:relative;
+    text-align: center;
+    margin: 30px 0 50px;
+    font: bold 120px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: transparent;
+}
+
+/* Only for safari, background-clip it's not working in FF */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  h1 {
+    background: url(http://marciobarrios.com/resources/img/japan-flag.png) no-repeat 50% 50%;
+    -webkit-background-clip: text;
+  }
+}
+
+#todos:after {
+    content: "TODOS";
+    left: 7px;
+    top: 0;
+}
+
+#somos {font-size: 114px}
+#somos:after {
+    content: "SOMOS";
+    left: 5px;
+    top: 126px;
+}
+
+#japon {font-size: 127px}
+#japon:after {
+    content: "JAPON";
+    left: 2px;
+    top: 240px;
+}
+
+#todos:after,
+#somos:after,
+#japon:after {
+  position: absolute;
+  z-index: -1;
+  color: #fff;
+  text-shadow: 0 1px 0 #ccc, 
+             0 2px 0 #c9c9c9,
+             0 3px 0 #bbb,
+             0 4px 0 #b9b9b9,
+             0 5px 0 #aaa,
+             0 6px 1px rgba(0,0,0,.1),
+             0 0 5px rgba(0,0,0,.1),
+             0 1px 3px rgba(0,0,0,.3),
+             0 3px 5px rgba(0,0,0,.2),
+             0 5px 10px rgba(0,0,0,.25),
+             0 10px 10px rgba(0,0,0,.2),
+             0 20px 20px rgba(0,0,0,.15);
+}
+
+ul {padding:0; margin: 0}
+
+li {
+    list-style-position: outside;
+    list-style-type: disc;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+li em {
+    display:block;
+    color: rgba(0,0,0,.4);
+    font-weight: normal;
+    font-style: normal;
+}
+
+small {
+    display: block;
+    margin: 50px 0 20px;
+    padding: 15px 0 0;
+    font-size: 12px;
+    border-top: 1px solid rgba(255,255,255,.3);
+    color: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+</style>  
+ 
+
+ 
+</head>
+ 
+<body>
+ 
+  <div>
+  <h1><span id="todos">Todos</span> <span id="somos">somos</span> <span id="japon">Japón</span></h1>
+  <p>Cinco formas rápidas de ayudar a Japón:</p>
+  <ul>
+      <li>SMS: JAPON al 28077 <em>Gracias a Movistar, para Cruz Roja. Coste: 1,2€</em></li>
+      <li>A través de <a href="http://www.cruzroja.es/pls/portal30/portal.donante.donativo">Cruz Roja</a>. <em>Ayuda directa a las víctimas del tusnami/terremoto.</em></li>
+      <li>A través de <a href="http://www.google.com/crisisresponse/japanquake2011.html">Google Crisis Response</a>.<em>Google ha habilitado un servicio de donaciones a ONGs.</em></li>
+      <li>A través de iTunes <em>Apple ha habilitado un servicio de donaciones.</em></li>
+      <li>Compra <a href="http://goo.gl/jL3u8">Street Fighter IV</a> para iPhone. <em>Hasta el 22 de Marzo todos beneficios irán para ayudar a Japón.</em></li>
+  </ul>
+  <small>
+    Una pequeña iniciativa de <a href="http://marciobarrios.com">Marcio Barrios</a><br>
+    Efecto 3D del texto y fondo de http://markdotto.com/playground/3d-text
+  </small>
+  </div>
+   
+</body>
+</html>
