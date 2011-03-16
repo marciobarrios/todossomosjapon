@@ -1,0 +1,1 @@
+Una simple página para promover las donaciones en Japón para de las víctimas del tsunami/terremoto
